@@ -40,3 +40,21 @@ for (var i=1; i < delimiter.length; i++) {
 var result = delimiter.join('');
 alert(result);
     */
+
+//Даны два массива: ['a', 'b', 'c'] и [1, 2, 3]. Объедините их вместе.
+
+var arr1 = ['a', 'b', 'c'];
+var arr2 = [1, 2, 3];
+var arr3 = arr1.concat(arr2);
+console.log(arr3);
+
+//Дан массив ['a', 'b', 'c']. Добавьте ему в конец элементы 1, 2, 3.
+var ar1 = ['a', 'b', 'c'];
+ar1.push(1,2,3);
+console.log(ar1);
+
+//Дан массив [1, 2, 3]. Сделайте из него массив [3, 2, 1].
+var _arr1 = [1, 2, 3];
+console.log(_arr1.reverse());
+
+//
