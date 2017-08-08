@@ -57,4 +57,20 @@ console.log(ar1);
 var _arr1 = [1, 2, 3];
 console.log(_arr1.reverse());
 
-//
+//Дан массив [1, 2, 3, 4, 5]. С помощью метода splice преобразуйте массив в [1, 4, 5]
+var _arr2 = [1, 2, 3, 4, 5];
+var cut = _arr2.splice(1,2);
+console.log(_arr2);
+
+//Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [4, 5].
+var original_arr = [1, 2, 3, 4, 5];
+var new_arr = original_arr.splice(3,4);
+console.log(new_arr);
+
+//Дан массив ['js', 'css', 'jq']. Выведите на экран последний элемент
+var lang_arr = ['js', 'css', 'jq'];
+console.log(lang_arr[2]);
+
+//Дан массив [3, 4, 1, 2, 7]. Отсортируйте его.
+var sort_arr = [3, 4, 1, 2, 7];
+console.log(sort_arr.sort());
